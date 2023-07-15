@@ -1,9 +1,13 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .header-n-hero {
@@ -23,20 +27,25 @@ header {
 ul,
 a {
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
     list-style-type: none;
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+
 }
 
 ul {
     padding-right: 80px;
+    margin-right: 120px;
 }
 
 .header-logo {
     font-size: 24px;
-    padding-left: 80px;
+    padding-left: 120px;
+    margin-left: 80px;
+    font-weight: bolder;
+
 }
 
 .hero {
@@ -44,36 +53,49 @@ ul {
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
-    padding: 80px;
+    padding: 50px;
 }
 
 .hero-left {
-    width: 400px;
+    width: 500px;
     height: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
 .hero-button {
+    display: flex;
     background-color: #3883F6;
     border-radius: 10px;
     border: none;
     color: #F9FAF8;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: bolder;
 }
 
 .hero-secondary {
     color: #E5E7EB;
     font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .hero-img {
-    height: 300px;
-    width: 400px;
+    display: flex;
+    height: 220px;
+    width: 500px;
+    margin-right: 150px;
+    margin-bottom: 25px;
 }
 
 .info {
@@ -81,16 +103,24 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
 }
 
 .info-title {
+    display: flex;
     font-size: 36px;
     color: #1F2937;
+    padding: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 .block {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    padding-bottom: 150px;
 }
 
 .blocks {
@@ -98,39 +128,77 @@ ul {
 }
 
 .info-img {
-    height: 100px;
-    width: 100px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin: 25px;
 }
 
-.review {
+.quote {
     background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.text-quote {
+    display: flex;
     font-size: 36px;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    color: #1F2937;
+    margin: 0 150px;
+    font-family: none;
+    font-style: italic;
+}
+
+.author-name {
+    display: flex;
+    font-size: 24px;
+    margin-left: 700px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 .card {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color:#3883F6;
     padding: 50px;
-    margin: 100px;
-    justify-content: space-around;
+    margin: 100px 200px;
+    justify-content: space-between;
     color: #F9FAF8;
     font-style: italic;
     border-radius: 10px;
 }
 
+.signup-text1 {
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.signup-text2 {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 .card-button {
+    display: flex;
     background-color: #3883F6;
     border-radius: 10px;
     border-style: solid;
     border-color: #F9FAF8;
     color: #F9FAF8;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 70px;
 }
 
 footer {
@@ -139,5 +207,5 @@ footer {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px;
+    padding: 40px;
 }
