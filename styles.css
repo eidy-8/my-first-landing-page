@@ -18,7 +18,7 @@ body {
 
 header {
     display: flex;
-    background-color: #1F2937;
+    background-color: orange;
     color: #F9FAF8;
     align-items: center;
     justify-content: space-between;
@@ -30,9 +30,29 @@ a {
     margin-left: 20px;
     list-style-type: none;
     text-decoration: none;
-    color: #E5E7EB;
+    color: black;
     font-size: 18px;
+}
 
+.search-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 0;
+    padding: 20px;
+    border-color: rgb(0, 174, 255);
+}
+
+.button-1 {
+    background-color: green;
+    color: #1F2937;
+}
+
+.button-2 {
+    background-color: yellow;
+    color: #1F2937;
 }
 
 ul {
@@ -41,31 +61,49 @@ ul {
 }
 
 .header-logo {
+    display: flex;
     font-size: 24px;
     padding-left: 120px;
     margin-left: 80px;
     font-weight: bolder;
-
+    align-items: center;
 }
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.blue {
+    color: rgb(0, 174, 255);
+}
+  
+.green {
+    color: green;
+} 
+
+.yellow {
+    color: yellow;
+} 
 
 .hero {
     display: flex;
-    background-color: #1F2937;
+    background-color: orange;
     align-items: center;
     justify-content: space-between;
     padding: 50px;
 }
 
 .hero-left {
-    width: 500px;
+    width: 450px;
     height: 300px;
     margin-left: 150px;
     margin-top: 50px;
 }
 
-.hero-button {
+button {
     display: flex;
-    background-color: #3883F6;
+    background-color: rgb(0, 174, 255);
     border-radius: 10px;
     border: none;
     color: #F9FAF8;
@@ -79,13 +117,13 @@ ul {
 }
 
 .hero-main {
-    color: #F9FAF8;
+    color: #1F2937;
     font-size: 48px;
     font-weight: bolder;
 }
 
 .hero-secondary {
-    color: #E5E7EB;
+    color: #1F2937;
     font-size: 18px;
     margin-bottom: 15px;
 }
@@ -120,7 +158,8 @@ ul {
     align-items: center;
     text-align: center;
     max-width: 200px;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
+    color: #1F2937;
 }
 
 .blocks {
@@ -132,6 +171,7 @@ ul {
     height: 150px;
     width: 150px;
     margin: 25px;
+    border-radius: 10px;
 }
 
 .quote {
@@ -162,11 +202,11 @@ ul {
 .card {
     display: flex;
     align-items: center;
-    background-color:#3883F6;
+    background-color:orange;
     padding: 50px;
     margin: 100px 200px;
     justify-content: space-between;
-    color: #F9FAF8;
+    color: #1F2937;
     font-style: italic;
     border-radius: 10px;
 }
@@ -176,6 +216,7 @@ ul {
     font-size: 25px;
     font-weight: bold;
     font-style: normal;
+    max-width: 500px;
 }
 
 .signup-text2 {
@@ -185,19 +226,6 @@ ul {
 }
 
 .card-button {
-    display: flex;
-    background-color: #3883F6;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #F9FAF8;
-    color: #F9FAF8;
-    width: 120px;
-    height: 0;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 15px;
     margin-right: 70px;
 }
 
@@ -205,7 +233,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: orange;
+    color: #1F2937;
     padding: 40px;
 }
