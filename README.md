@@ -40,4 +40,8 @@ The project structure will consist of the following files and directories:
 - [Pixabay](https://pixabay.com) for providing high-quality images to enhance the visual appeal of the landing page.
 - The web development community for sharing knowledge and inspiration.
 
+- Images: Credit to the image creators
+- ItalianLadybug | Profile: [Pixabay](https://pixabay.com/users/italianladybug-27190605/)
+- OpenClipart-Vectors | Profile: [Pixabay](https://pixabay.com/users/openclipart-vectors-30363/)
+
 </div>
